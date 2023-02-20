@@ -1,0 +1,30 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    box-shadow: 1px 2px 8px black;
+}
+
+.Navitems ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+.Navitems ul li a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    height: 48px;
+}
+
+@media screen and (max-width:500px) {
+    .logo img{
+        height: 34px;
+    }
+}
+

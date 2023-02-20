@@ -1,0 +1,49 @@
+
+#bannerSpaloonMainContainer{
+    padding:5%;
+    height:500px;
+}
+
+
+#bannerSpaloonMainContainer{
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(https://spaalon.com/images/Headersecond.png);
+    background-color: #ffff;
+    background-size: cover;
+    border-radius: 8px;
+    color: #ffff;
+    display: flex;
+    height: 350px;
+    line-height: 100%;
+    margin: auto;
+    padding: 5%;
+    text-align: left;
+    width: 80%
+}
+
+.itemContainer{
+    width:50%;
+    text-align: left;
+    color:white;
+}
+
+.viewButton{
+    background: #e84f1e;
+    border:none;
+    border-radius: 3px;
+    color: #ffff;
+    font-weight: 700;
+    outline: none;
+    padding: 2% 8%;
+}
+
+@media screen and (max-width:850px) {
+    .itemContainer h3,.itemContainer h2, .itemContainer h1{
+        font-size:larger !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .itemContainer h3,.itemContainer h2, .itemContainer h1{
+        font-size: small !important;
+    }
+}

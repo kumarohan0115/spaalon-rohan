@@ -1,0 +1,54 @@
+.bestDealContainer{
+    padding:5%;
+}
+
+
+.bestdeal{
+    text-align: left;
+}
+
+.bestDealContent{
+    width: 100%;
+    display: flex;
+}
+
+.cardstyle{
+    display:flex; 
+    width:50%;
+    border:2px solid rgb(150,150,150);
+    margin:1rem;
+    border-radius:8px;
+    height: 200px;
+}
+
+.imgStyle{
+    min-height: 200px;
+    width: 50%;
+    border:1px solid black;
+    border-radius:8px;
+}
+
+.infostyle{
+    display:flex;
+    flex-direction:column;
+    justify-Content:center;
+    text-align:left;
+    padding:5px
+}
+
+
+@media screen and (max-width:700px) {
+    .bestDealContainer{
+        flex-direction: column;
+        display:flex,
+    }
+
+    .bestDealContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardstyle{
+        width: 100%;
+    }
+}

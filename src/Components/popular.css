@@ -1,0 +1,28 @@
+.sectionSty{
+    display:flex;
+    flex-direction:column;
+    padding:1rem 2rem;
+}
+
+.imgcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.imgDiv{
+    background-color: white;
+}
+
+.imgcss{
+    height: inherit;
+    min-width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:700px) {
+    .imgcontainer{
+        flex-direction: column;
+    }
+}
